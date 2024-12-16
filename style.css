@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch; /* halves stretch to full height */
+}
+
+/* first half */
+#first-half {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 475px;
+    background-image: url('img/plant-pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* odin logo  and text + transparent background */
+#odin-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 220px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* transparent background */
+    height: 120px;
+}
+
+#odin {
+    display: flex;
+    font-family:fantasy;
+    font-size: 50px;
+    color: rgb(253, 250, 246);
+    align-items: center;
+}
+
+#credits {
+    font-family: monospace;
+    font-size: 12px;
+    position: absolute; 
+    bottom: 0; 
+    text-align: center;
+    color: antiquewhite;
+    padding: 30px;
+}
+
+a {
+    color: antiquewhite; /*adjusting the link to be white*/
+}
+/* end of first half of the page*/
+
+#second-half {
+    width: 850px;
+    height: 100vh;
+    background-color: bisque;
+}
