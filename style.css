@@ -1,10 +1,23 @@
 body {
+    font-family:Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     height: 100vh;
     margin: 0;
     width: 100%;
     justify-content: center;
     align-items: stretch; /* halves stretch to full height */
+    background-color: black;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+/* import font for logo */
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
 }
 
 /* first half */
@@ -32,8 +45,8 @@ body {
 
 #odin {
     display: flex;
-    font-family:fantasy;
-    font-size: 50px;
+    font-family:norse-bold;
+    font-size: 100px;
     color: rgb(253, 250, 246);
     align-items: center;
 }
@@ -56,5 +69,52 @@ a {
 #second-half {
     width: 850px;
     height: 100vh;
-    background-color: bisque;
+    background-color: rgb(243, 243, 243);
+}
+
+/* section 1 */
+
+#section-one {
+    background-color: rgb(243, 243, 243);
+    padding-left: 50px;
+    padding-right: 75px;
+    padding-top: 15vh;
+}
+
+#you-know {
+    padding-top: 30px;
+    padding-bottom:60px;
+}
+
+/* section 2 */
+
+
+#section-two {
+    background-color: white;
+    padding: 30px;
+}
+
+/* section 3 */
+
+#section-three {
+    padding: 35px;
+    background-color:rgb(243, 243, 243);
+}
+
+#submit {
+    border-radius: 8px;
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 45px;
+    padding-left: 45px;
+    color: aliceblue;
+    background-color: #596D48;
+}
+
+#login {
+    text-decoration: none;
+    color: #596D48;
 }
